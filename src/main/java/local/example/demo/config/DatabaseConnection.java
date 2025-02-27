@@ -9,8 +9,8 @@ public class DatabaseConnection {
     public static Connection connectToDatabase() {
         // Định nghĩa thông tin kết nối
         String url = "jdbc:sqlserver://localhost:1433;databaseName=indochinaqueenbooking";
-        String username = "sonit"; // Thay đổi username
-        String password = "Soncute@123"; // Thay đổi password
+        String username = "sa"; // Thay đổi username
+        String password = "123"; // Thay đổi password
 
         Connection connection = null;
 
